@@ -57,3 +57,5 @@ alias q='exit'
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
