@@ -11,7 +11,7 @@ mkdir -p Desktop Documents Downloads Music temp Videos work
 
 echo "Step 3: Setting up NeoVim..."
 
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 pip install neovim
 # Update binaries manually.
